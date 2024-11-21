@@ -1,0 +1,6 @@
+@gs2Gb93266Ez92955_HostAddress = http://localhost:5198
+
+GET {{gs2Gb93266Ez92955_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -8,8 +8,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddSwaggerGen(c =>{
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "gs2Gb93266Ez92955", Version = "v1" });
+    var xmlFile = $"{System.AppDomain.CurrentDomain.FriendlyName}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+    c.IncludeXmlComments(xmlPath);
 });
 
 builder.Services.AddSingleton<MongoService>();

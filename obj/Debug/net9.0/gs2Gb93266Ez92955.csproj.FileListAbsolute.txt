@@ -47,3 +47,6 @@
 /Users/enzomansi/dev/microservices/gs2Gb93266Ez92955/gs2Gb93266Ez92955/bin/Debug/net9.0/xunit.core.dll
 /Users/enzomansi/dev/microservices/gs2Gb93266Ez92955/gs2Gb93266Ez92955/bin/Debug/net9.0/xunit.execution.dotnet.dll
 /Users/enzomansi/dev/microservices/gs2Gb93266Ez92955/gs2Gb93266Ez92955/bin/Debug/net9.0/ZstdSharp.dll
+/Users/enzomansi/dev/microservices/gs2Gb93266Ez92955/gs2Gb93266Ez92955/bin/Debug/net9.0/gs2Gb93266Ez92955.xml
+/Users/enzomansi/dev/microservices/gs2Gb93266Ez92955/gs2Gb93266Ez92955/obj/Debug/net9.0/gs2Gb93266Ez92955.sourcelink.json
+/Users/enzomansi/dev/microservices/gs2Gb93266Ez92955/gs2Gb93266Ez92955/obj/Debug/net9.0/gs2Gb93266Ez92955.xml

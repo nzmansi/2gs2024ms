@@ -9,7 +9,9 @@ namespace gs2Gb93266Ez92955.Controllers;
 public class ConsumoController : ControllerBase{
     private readonly MongoService _mongoService;
     private readonly RedisCacheService _redisCacheService;
-    public ConsumoController(MongoService mongoService, RedisCacheService redisCacheService){
+
+    public ConsumoController(MongoService mongoService, RedisCacheService redisCacheService)
+    {
         _mongoService = mongoService;
         _redisCacheService = redisCacheService;
     }
@@ -23,7 +25,7 @@ public class ConsumoController : ControllerBase{
     [HttpGet("/consumo")]
     public async Task<IActionResult> Get(){
         var cacheDados = await _redisCacheService.Obter("consumo");
-
+        
         if (!string.IsNullOrEmpty(cacheDados)){
             return Ok(cacheDados);
         }
@@ -33,5 +35,4 @@ public class ConsumoController : ControllerBase{
 
         return Ok(consumos);
     }
-    
 }

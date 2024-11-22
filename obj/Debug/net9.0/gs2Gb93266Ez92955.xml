@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>gs2Gb93266Ez92955</name>
+    </assembly>
+    <members>
+        <member name="M:gs2Gb93266Ez92955.Controllers.ConsumoController.Post(gs2Gb93266Ez92955.Models.Consumo)">
+            <summary>
+            Registra dados de consumo energético.
+            </summary>
+            <param name="consumo">Objeto com dados de consumo.</param>
+            <returns>Status 201 (Created) em caso de sucesso.</returns>
+        </member>
+        <member name="M:gs2Gb93266Ez92955.Controllers.ConsumoController.Get">
+            <summary>
+            Consulta todos os dados de consumo armazenados.
+            </summary>
+            <returns>Lista de consumos registrados.</returns>
+        </member>
+    </members>
+</doc>
